@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Beginner's Essential: CSS Cheat Sheet</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h2>Beginner's Essential</h2>
+            <h1>CSS Cheat Sheet</h1>
+        </header>
+
+        <!-- Section 1 -->
+
+        <div class="section-header">
+            <h2>Backgrounds</h2>
+        </div>
+        <table>
+            <tr class="row-1">
+                <td><span class="call-out">background</span></td>
+                <td><span class="call-out">background-size</span></td> 
+                <td><span class="call-out">background-repeat</span></td>              
+            </tr>
+            <tr class="row-2">
+                <td>background-image</td>
+                <td>length</td>
+                <td>repeat | repeat-x | repeat-y | no-repeat</td>
+            </tr>
+            <tr class="row-3">
+                <td>background-position</td>
+                <td>%</td>
+                <td></td>              
+            </tr>
+            <tr class="row-4">
+                <td>background-size</td>
+                <td>auto | cover | contain</td>
+                <td><span class="call-out">background-attachment</span></td>              
+            </tr>
+            <tr class="row-5">
+                <td>background-repeat</td>
+                <td></td>
+                <td>scroll | fixed | local</td>
+            </tr>
+            <tr class="row-6">
+                <td>background-attachment</td>
+                <td><span class="call-out">background-image</span></td>              
+                <td></td>
+            </tr>
+            <tr class="row-7">
+                <td>background-origin</td>
+                <td>url | gradients | none</td>
+                <td><span class="call-out">background-origin</span></td>
+            </tr>
+            <tr class="row-8">
+                <td>background-clip</td>
+                <td></td>
+                <td>border-box | padding-box | content-box</td>
+            </tr>
+            <tr class="row-9">
+                <td>background-color</td>
+                <td><span class="call-out">background-clip</span></td>
+                <td></td>
+            </tr>
+            <tr class="row-10">
+                <td></td>
+                <td>border-box | padding-box</td>
+                <td><span class="call-out">background-position</span></td>
+            </tr>
+            <tr class="row-11">
+                <td><span class="call-out">background-color</span></td>
+                <td>content-box | no-clip</td>
+                <td>top left | top center | top right</td>
+            </tr>
+            <tr class="row-12">
+                <td>color</td>
+                <td></td>
+                <td>center left | center center | center right</td>
+            </tr>
+            <tr class="row-13">
+                <td>transparent</td>
+                <td></td>
+                <td>bottom left | bottom center | bottom right</td>
+            </tr>
+            <tr class="row-14">
+                <td></td>
+                <td></td>
+                <td>x-% y-% | x-pos y-pos</td>
+            </tr>
+            <tr class="row-15">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="row-16">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="row-17">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <!-- Section 2 -->
+
+        <div class="section-header">
+            <h2>Border</h2>
+        </div>
+        <table>
+            <tr class="row-1">
+                <td><span class="call-out">border</span></td>
+                <td><span class="call-out">border-top-color</span></td> 
+                <td><span class="call-out">border-width</span></td>              
+            </tr>
+            <tr class="row-2">
+                <td>border-width</td>
+                <td>border-color</td>
+                <td>thin | medium | thick | length</td>
+            </tr>
+            <tr class="row-3">
+                <td>border-style</td>
+                <td></td>
+                <td></td>              
+            </tr>
+            <tr class="row-4">
+                <td>border-color</td>
+                <td><span class="call-out">border-bottom</span></td>              
+                <td><span class="call-out">border-top-width</span></td>              
+            </tr>
+            <tr class="row-5">
+                <td></td>
+                <td>border-bottom-width</td>
+                <td>thin | medium | thick | length</td>
+            </tr>
+            <tr class="row-6">
+                <td><span class="call-out">border-style</span></td>              
+                <td>border-style</td>              
+                <td></td>
+            </tr>
+            <tr class="row-7">
+                <td>none | hidden | dotted</td>
+                <td>border-color</td>
+                <td><span class="call-out">border-color</span></td>              
+            </tr>
+            <tr class="row-8">
+                <td>dashed | solid | double</td>
+                <td></td>
+                <td>color</td>
+            </tr>
+            <tr class="row-9">
+                <td>groove | ridge | inset | outset</td>
+                <td><span class="call-out">border-bottom-color</span></td>              
+                <td></td>
+            </tr>
+            <tr class="row-10">
+                <td></td>
+                <td>border-color</td>
+                <td><span class="call-out">border-bottom-style</span></td>              
+            </tr>
+            <tr class="row-11">
+                <td><span class="call-out">border-left</span></td>              
+                <td></td>
+                <td>border-style</td>
+            </tr>
+            <tr class="row-12">
+                <td>border-left-width</td>
+                <td><span class="call-out">border-break</span></td>              
+                <td></td>
+            </tr>
+            <tr class="row-13">
+                <td>border-style</td>
+                <td>border-width</td>
+                <td><span class="call-out">border-left-style</span></td>              
+            </tr>
+            <tr class="row-14">
+                <td>border-color</td>
+                <td>border-style</td>
+                <td>border-style</td>
+            </tr>
+            <tr class="row-15">
+                <td></td>
+                <td>color</td>
+                <td></td>
+            </tr>
+            <tr class="row-16">
+                <td><span class="call-out">box-shadow</span></td>              
+                <td>close</td>
+                <td><span class="call-out">border-left-color</span></td>              
+            </tr>
+            <tr class="row-17">
+                <td>inset || [ length, length,</td>
+                <td></td>
+                <td>border-color</td>
+            </tr>
+            <tr class="row-18">
+                <td>length, length || &#60;color&#62; ] </td>
+                <td><span class="call-out">border-collapse</span></td>              
+                <td></td>
+            </tr>
+            <tr class="row-19">
+                <td>none</td>
+                <td>collapse | separate</td>
+                <td><span class="call-out">border-left-width</span></td>              
+            </tr>
+            <tr class="row-20">
+                <td></td>
+                <td></td>
+                <td>thin | medium | thick length</td>
+            </tr>
+            <tr class="row-21">
+                <td><span class="call-out">border-right</span></td>              
+                <td><span class="call-out">border-right-style</span></td>              
+                <td></td>
+            </tr>
+            <tr class="row-22">
+                <td>border-right-width</td>
+                <td>border-style</td>
+                <td><span class="call-out">border-image</span></td>              
+            </tr>
+            <tr class="row-23">
+                <td>border-style</td>
+                <td></td>
+                <td>image</td>
+            </tr>
+            <tr class="row-24">
+                <td>border-color</td>
+                <td><span class="call-out">border-right-color</span></td>              
+                <td>[ number | % border-width</td>
+            </tr>
+            <tr class="row-25">
+                <td></td>
+                <td>border-color</td>
+                <td>stretch | repeat | round | none</td>
+            </tr>
+            <tr class="row-26">
+                <td><span class="call-out">border-radius</span></td>              
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="row-27">
+                <td>border-radius</td>
+                <td><span class="call-out">border-right-width</span></td>              
+                <td><span class="call-out">border-top-right-radius</span></td>              
+            </tr>
+            <tr class="row-28">
+                <td>border-top-right-radius</td>
+                <td>thin | medium | thick | length</td>
+                <td>length</td>
+            </tr>
+            <tr class="row-29">
+                <td>border-bottom-right-radius</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="row-30">
+                <td>border-bottom-left-radius</td>
+                <td><span class="call-out">border-top</span></td>              
+                <td><span class="call-out">border-bottom-right-radius</span></td>              
+            </tr>
+            <tr class="row-31">
+                <td>border-top-left-radius</td>
+                <td>border-top-width</td>
+                <td>length</td>
+            </tr>
+            <tr class="row-32">
+                <td></td>
+                <td>border-style</td>
+                <td></td>
+            </tr>
+            <tr class="row-33">
+                <td><span class="call-out">border-top-style</span></td>              
+                <td>border-color</td>
+                <td><span class="call-out">border-bottom-left-radius</span></td>              
+            </tr>
+            <tr class="row-33">
+                <td>border-style</td>
+                <td></td>
+                <td>length</td>
+            </tr>
+        </table>
+
+        <!-- Section 3 -->
+
+        <div class="section-header">
+            <h2>Box Model</h2>
+        </div>
+        <table>
+            <tr class="row-1">
+                <td><span class="call-out">float</span></td>
+                <td><span class="call-out">padding-left</span></td> 
+                <td><span class="call-out">padding-right</span></td>              
+            </tr>
+            <tr class="row-2">
+                <td>left | right | none</td>
+                <td>length</td>
+                <td>length</td>
+            </tr>
+            <tr class="row-3">
+                <td></td>
+                <td>%</td>
+                <td>%</td>              
+            </tr>
+            <tr class="row-4">
+                <td><span class="call-out">height</span></td>              
+                <td></td>
+                <td></td>              
+            </tr>
+            <tr class="row-5">
+                <td>auto</td>
+                <td><span class="call-out">padding-top</span></td>              
+                <td><span class="call-out">max-height</span></td>              
+            </tr>
+            <tr class="row-6">
+                <td>length</td>
+                <td>length</td>              
+                <td>none</td>
+            </tr>
+            <tr class="row-7">
+                <td>%</td>
+                <td>%</td>
+                <td>length</td>
+            </tr>
+            <tr class="row-8">
+                <td></td>
+                <td></td>
+                <td>%</td>
+            </tr>
+            <tr class="row-9">
+                <td><span class="call-out">max-width</span></td>              
+                <td><span class="call-out">max-height</span></td>              
+                <td></td>
+            </tr>
+            <tr class="row-10">
+                <td>none</td>
+                <td>none</td>
+                <td><span class="call-out">background-position</span></td>
+            </tr>
+            <tr class="row-11">
+                <td>length</td>
+                <td>length</td>
+                <td>top left | top center | top right</td>
+            </tr>
+            <tr class="row-12">
+                <td>%</td>
+                <td>%</td>
+                <td>center left | center center | center right</td>
+            </tr>
+            <tr class="row-13">
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr class="row-14">
+                <td><span class="call-out">display</span></td>
+                <td><span class="call-out">min-height</span></td>
+                <td><span class="call-out">width</span></td>
+            </tr>
+            <tr class="row-15">
+                <td>none | inline | block | inline-block</td>
+                <td>none</td>
+                <td>auto</td>
+            </tr>
+            <tr class="row-16">
+                <td>list-item | run-in | compact | table</td>
+                <td>length</td>
+                <td>length</td>
+            </tr>
+            <tr class="row-17">
+                <td>inline-table | table-row-group | table-row</td>
+                <td>%</td>
+                <td>%</td>
+            </tr>
+            <tr class="row-18">
+                <td>table-header-group | table-footer-group</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="row-19">
+                <td>table-column | table-cell | table-caption</td>
+                <td><span class="call-out">overflow</span></td>
+                <td><span class="call-out">margin</span></td>
+            </tr>
+            <tr class="row-20">
+                <td>ruby | ruby-base | ruby-text</td>
+                <td>visible | hidden | scroll | auto</td>
+                <td>margin-top</td>
+            </tr>
+            <tr class="row-21">
+                <td>ruby-base-group | ruby-text-group</td>
+                <td>no-display | no-content | overflow-x</td>
+                <td>margin-right</td>
+            </tr>
+            <tr class="row-22">
+                <td>inline-flex | inline-grid | contents</td>
+                <td>overflow-y</td>
+                <td>margin-bottom</td>
+            </tr>
+            <tr class="row-23">
+                <td></td>
+                <td></td>
+                <td>margin-left</td>
+            </tr>
+            <tr class="row-24">
+                <td><span class="call-out">overflow-x</span></td>
+                <td><span class="call-out">overflow-style</span></td>
+                <td></td>
+            </tr>
+            <tr class="row-25">
+                <td>visible | hidden | scroll</td>
+                <td>auto | marquee-line | marqueeblock</td>
+                <td><span class="call-out">margin-bottom</span></td>
+            </tr>
+            <tr class="row-26">
+                <td>auto | no-display | no-content</td>
+                <td></td>
+                <td>auto | length | %</td>
+            </tr>
+            <tr class="row-27">
+                <td>&nbsp;</td>
+                <td><span class="call-out">rotation</span></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr class="row-28">
+                <td><span class="call-out">padding</span></td>
+                <td>angle</td>
+                <td><span class="call-out">margin-left</span></td>
+            </tr>
+            <tr class="row-29">
+                <td>padding-top | padding-right</td>
+                <td></td>
+                <td>auto | length | %</td>
+            </tr>
+            <tr class="row-30">
+                <td>padding-bottom | padding-left</td>
+                <td><span class="call-out">rotation-point</span></td>
+                <td></td>
+            </tr>
+            <tr class="row-31">
+                <td></td>
+                <td>position (paired value off-set)</td>
+                <td><span class="call-out">margin-right</span></td>
+            </tr>
+            <tr class="row-32">
+                <td><span class="call-out">padding-bottom</span></td>
+                <td></td>
+                <td>auto | length | %</td>
+            </tr>
+            <tr class="row-33">
+                <td>length</td>
+                <td><span class="call-out">visibility</span></td>
+                <td></td>
+            </tr>
+            <tr class="row-34">
+                <td>%</td>
+                <td>visible | hidden | collapse</td>
+                <td><span class="call-out">margin-top</span></td>
+            </tr>
+            <tr class="row-35">
+                <td></td>
+                <td></td>
+                <td>auto | length | %</td>
+            </tr>
+            <tr class="row-36">
+                <td><span class="call-out">clear</span></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="row-37">
+                <td>left | right | both | none</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <footer>
+            <p>© whytdrumer... but not really. Feel free to take this and use it how you wish</p>
+        </footer>
+    </body>
+</html>
